@@ -1,0 +1,372 @@
+Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T11:41:47-05:00)
+Maven home: /opt/apache-maven-3.3.9
+Java version: 1.8.0_121, vendor: Oracle Corporation
+Java home: /opt/java/jdk1.8.0_121/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-123.9.2.el7.x86_64", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /opt/apache-maven-3.3.9/conf/settings.xml
+[DEBUG] Reading user settings from /home/centos/.m2/settings.xml
+[DEBUG] Reading global toolchains from /opt/apache-maven-3.3.9/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/centos/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/centos/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/centos/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.sonarqube:example-java-maven:jar:1.1: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix sonar from [org.sonarsource.scanner.maven, org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.sonarsource.scanner.maven/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.sonarsource.scanner.maven/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix sonar to org.sonarsource.scanner.maven:sonar-maven-plugin from repository central
+[DEBUG] Resolving plugin version for org.sonarsource.scanner.maven:sonar-maven-plugin
+[DEBUG] Could not find metadata org.sonarsource.scanner.maven:sonar-maven-plugin/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.sonarsource.scanner.maven:sonar-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.sonarsource.scanner.maven:sonar-maven-plugin to 3.3.0.603 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.sonarqube:example-java-maven:jar:1.1
+[DEBUG] Tasks:   [sonar:sonar]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Java :: Simple Project :: SonarQube Scanner for Maven 1.1
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin prefix sonar from [org.sonarsource.scanner.maven, org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.sonarsource.scanner.maven/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.sonarsource.scanner.maven/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix sonar to org.sonarsource.scanner.maven:sonar-maven-plugin from repository central
+[DEBUG] Resolving plugin version for org.sonarsource.scanner.maven:sonar-maven-plugin
+[DEBUG] Could not find metadata org.sonarsource.scanner.maven:sonar-maven-plugin/maven-metadata.xml in local (/home/centos/.m2/repository)
+[DEBUG] Skipped remote request for org.sonarsource.scanner.maven:sonar-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.sonarsource.scanner.maven:sonar-maven-plugin to 3.3.0.603 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.sonarqube:example-java-maven:1.1
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <localRepository default-value="${localRepository}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${sonar.skip}</skip>
+  <execution default-value="${mojoExecution}"/>
+  <mojoExecution default-value="${mojoExecution}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=0, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.sonarqube:example-java-maven:jar:1.1
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.3.0.603:sonar (default-cli) @ example-java-maven ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=11, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=10, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=11, DefaultDependencyCollector.collectTime=461, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.3.0.603:
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]       org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+[DEBUG]    org.sonarsource.scanner.api:sonar-scanner-api:jar:2.9.0.887:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    com.google.code.findbugs:jsr305:jar:2.0.3:compile
+[DEBUG] Created new class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603
+[DEBUG] Importing foreign packages into class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603
+[DEBUG]   Included: org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.3.0.603
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.22
+[DEBUG]   Included: org.sonarsource.scanner.api:sonar-scanner-api:jar:2.9.0.887
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.3
+[DEBUG] Configuring mojo org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar from plugin realm ClassRealm[plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603, parent: sun.misc.Launcher$AppClassLoader@55f96302]
+[DEBUG] Configuring mojo 'org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar' with basic configurator -->
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/centos/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5b970f7
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) execution = org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar {execution: default-cli}
+[DEBUG]   (f) mojoExecution = org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar {execution: default-cli}
+[DEBUG] -- end configuration --
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] 09:12:35.622 keyStore is : 
+[DEBUG] 09:12:35.625 keyStore type is : jks
+[DEBUG] 09:12:35.625 keyStore provider is : 
+[DEBUG] 09:12:35.626 init keystore
+[DEBUG] 09:12:35.626 init keymanager of type SunX509
+[INFO] 09:12:35.765 User cache: /home/centos/.sonar/cache
+[DEBUG] 09:12:35.765 Extract sonar-scanner-api-batch in temp...
+[DEBUG] 09:12:35.790 Get bootstrap index...
+[DEBUG] 09:12:35.791 Download: http://sq:6300/batch/index
+[DEBUG] 09:12:35.942 Get bootstrap completed
+[DEBUG] 09:12:35.942 Create isolated classloader...
+[DEBUG] 09:12:35.945 Start temp cleaning...
+[DEBUG] 09:12:35.957 Temp cleaning done
+[DEBUG] 09:12:35.958 Execution getVersion
+[DEBUG] 09:12:35.961 Execution start
+[DEBUG] 09:12:36.405 Publish global mode
+[INFO] 09:12:36.635 Load global settings
+[DEBUG] 09:12:36.684 GET 200 http://sq:6300/api/settings/values.protobuf | time=43ms
+[INFO] 09:12:36.731 Load global settings (done) | time=97ms
+[INFO] 09:12:36.740 User cache: /home/centos/.sonar/cache
+[INFO] 09:12:37.344 Load plugins index
+[DEBUG] 09:12:37.353 GET 200 http://sq:6300/deploy/plugins/index.txt | time=9ms
+[INFO] 09:12:37.354 Load plugins index (done) | time=10ms
+[DEBUG] 09:12:37.355 Load plugins
+[DEBUG] 09:12:37.375 Load plugins (done) | time=20ms
+[DEBUG] 09:12:37.385 API compatibility mode is enabled on plugin Git [scmgit] (built with API lower than 5.2)
+[DEBUG] 09:12:37.385 API compatibility mode is enabled on plugin SVN [scmsvn] (built with API lower than 5.2)
+[DEBUG] 09:12:37.485 Plugins:
+[DEBUG] 09:12:37.485   * C# 5.7.0.612 (csharp)
+[DEBUG] 09:12:37.486   * Python 1.7.0.1195 (python)
+[DEBUG] 09:12:37.486   * Java 4.5.0.8398 (java)
+[DEBUG] 09:12:37.486   * Git 1.2 (scmgit)
+[DEBUG] 09:12:37.486   * Flex 2.3 (flex)
+[DEBUG] 09:12:37.486   * PHP 2.9.2.1744 (php)
+[DEBUG] 09:12:37.486   * SVN 1.4.0.522 (scmsvn)
+[DEBUG] 09:12:37.486   * SonarJS 2.20.0.4207 (javascript)
+[DEBUG] 09:12:37.503 Execution getVersion
+[INFO] 09:12:37.503 SonarQube version: 6.3.0
+[DEBUG] Dependency tree resolution listener events:
+[DEBUG] testArtifact: artifact=org.sonarqube:example-java-maven:jar:1.1
+[DEBUG] includeArtifact: artifact=org.sonarqube:example-java-maven:jar:1.1
+[DEBUG] startProcessChildren: artifact=org.sonarqube:example-java-maven:jar:1.1
+[DEBUG] endProcessChildren: artifact=org.sonarqube:example-java-maven:jar:1.1
+[INFO] 09:12:37.537 Default locale: "en_US", source code encoding: "UTF-8"
+[DEBUG] 09:12:37.537 Work directory: /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/sonar
+[DEBUG] 09:12:37.537 Execution getVersion
+[DEBUG] 09:12:37.538 Execution execute
+[INFO] 09:12:37.948 Process project properties
+[DEBUG] 09:12:37.950 Process project properties (done) | time=2ms
+[INFO] 09:12:38.167 Load project repositories
+[DEBUG] 09:12:38.207 GET 200 http://sq:6300/batch/project.protobuf?key=org.sonarqube%3Aexample-java-maven | time=39ms
+[INFO] 09:12:38.326 Load project repositories (done) | time=159ms
+[DEBUG] 09:12:38.406 Available languages:
+[DEBUG] 09:12:38.406   * C# => "cs"
+[DEBUG] 09:12:38.406   * Python => "py"
+[DEBUG] 09:12:38.406   * Java => "java"
+[DEBUG] 09:12:38.407   * Flex => "flex"
+[DEBUG] 09:12:38.407   * PHP => "php"
+[DEBUG] 09:12:38.407   * JavaScript => "js"
+[INFO] 09:12:38.409 Load quality profiles
+[DEBUG] 09:12:38.433 GET 200 http://sq:6300/api/qualityprofiles/search.protobuf?projectKey=org.sonarqube%3Aexample-java-maven | time=24ms
+[INFO] 09:12:38.436 Load quality profiles (done) | time=27ms
+[INFO] 09:12:38.439 Load active rules
+[DEBUG] 09:12:38.487 GET 200 http://sq:6300/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=cs-sonar-way-46563&p=1&ps=500 | time=48ms
+[DEBUG] 09:12:38.638 GET 200 http://sq:6300/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=js-sonar-way-82697&p=1&ps=500 | time=57ms
+[DEBUG] 09:12:38.720 GET 200 http://sq:6300/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=php-sonar-way-75929&p=1&ps=500 | time=73ms
+[DEBUG] 09:12:38.758 GET 200 http://sq:6300/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=py-sonar-way-23724&p=1&ps=500 | time=35ms
+[DEBUG] 09:12:38.874 GET 200 http://sq:6300/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=java-javatest-88199&p=1&ps=500 | time=114ms
+[DEBUG] 09:12:38.935 GET 200 http://sq:6300/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt&activation=true&qprofile=flex-sonar-way-24333&p=1&ps=500 | time=50ms
+[INFO] 09:12:38.963 Load active rules (done) | time=524ms
+[INFO] 09:12:38.964 Load metrics repository
+[DEBUG] 09:12:38.998 GET 200 http://sq:6300/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=34ms
+[INFO] 09:12:39.050 Load metrics repository (done) | time=86ms
+[INFO] 09:12:39.113 Publish mode
+[INFO] 09:12:39.113 Project key: org.sonarqube:example-java-maven
+[DEBUG] 09:12:39.113 Start recursive analysis of project modules
+[INFO] 09:12:39.114 -------------  Scan Java :: Simple Project :: SonarQube Scanner for Maven
+[INFO] 09:12:39.314 Load server rules
+[DEBUG] 09:12:39.376 GET 200 http://sq:6300/api/rules/list.protobuf | time=62ms
+[INFO] 09:12:39.401 Load server rules (done) | time=87ms
+[DEBUG] 09:12:39.496 Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+[DEBUG] 09:12:39.496 Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+[DEBUG] 09:12:39.496 Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+[DEBUG] 09:12:39.496 Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+[DEBUG] 09:12:39.497 Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+[DEBUG] 09:12:39.497 Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js
+[INFO] 09:12:39.497 Language is forced to java
+[DEBUG] 09:12:39.568 Initializers : GenericCoverageSensor
+[INFO] 09:12:39.568 Initializer GenericCoverageSensor
+[INFO] 09:12:39.569 Initializer GenericCoverageSensor (done) | time=1ms
+[INFO] 09:12:39.569 Base dir: /opt/SS_examples/projects/languages/java/maven/java-maven-simple
+[INFO] 09:12:39.569 Working dir: /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/sonar
+[INFO] 09:12:39.570 Source paths: pom.xml, src/main/java
+[INFO] 09:12:39.570 Source encoding: UTF-8, default locale: en_US
+[INFO] 09:12:39.571 Index files
+[WARNING] 09:12:39.580 File '/opt/SS_examples/projects/languages/java/maven/java-maven-simple/pom.xml' is ignored because it doens't belong to the forced langauge 'java'
+[DEBUG] 09:12:39.585 'src/main/java/example/One.java' indexed with language 'java'
+[DEBUG] 09:12:39.586 'src/main/java/example/One2.java' indexed with language 'java'
+[DEBUG] 09:12:39.586 'src/main/java/example/One3.java' indexed with language 'java'
+[INFO] 09:12:39.588 3 files indexed
+[INFO] 09:12:39.588 Quality profile for java: javatest
+[DEBUG] 09:12:39.599 Code colorizer, supported languages: 
+[DEBUG] 09:12:40.689 'Generic Coverage Report' skipped because one of the required properties is missing
+[DEBUG] 09:12:40.689 'Generic Test Executions Report' skipped because one of the required properties is missing
+[DEBUG] 09:12:40.689 'C#' skipped because there is no related file in current project
+[DEBUG] 09:12:40.689 'Python Squid Sensor' skipped because there is no related file in current project
+[DEBUG] 09:12:40.690 'Flex' skipped because there is no related file in current project
+[DEBUG] 09:12:40.690 'Flex Cobertura' skipped because there is no related file in current project
+[DEBUG] 09:12:40.690 'PHP sensor' skipped because there is no related file in current project
+[DEBUG] 09:12:40.690 'JavaScript Squid Sensor' skipped because there is no related file in current project
+[DEBUG] 09:12:40.691 Sensors : JavaSquidSensor -> NoSonar Sensor -> Coverage Report Import -> Coverage Report Import -> Unit Test Results Import -> SurefireSensor -> JaCoCoSensor -> XmlFileSensor -> Analyzer for "php.ini" files -> Zero Coverage Sensor -> Code Colorizer Sensor -> CPD Block Indexer
+[INFO] 09:12:40.691 Sensor JavaSquidSensor [java]
+[INFO] 09:12:41.149 Configured Java source version (sonar.java.source): 5
+[INFO] 09:12:41.176 JavaClasspath initialization
+[WARNING] 09:12:41.200 Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+[INFO] 09:12:41.200 JavaClasspath initialization (done) | time=24ms
+[INFO] 09:12:41.201 JavaTestClasspath initialization
+[INFO] 09:12:41.201 JavaTestClasspath initialization (done) | time=0ms
+[INFO] 09:12:41.634 Java Main Files AST scan
+[INFO] 09:12:41.634 3 source files to be analyzed
+[DEBUG] 09:12:41.713 ----- Classpath analyzed by Squid:
+[DEBUG] 09:12:41.713 /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/classes
+[DEBUG] 09:12:41.713 -----
+[DEBUG] 09:12:41.923 'src/main/java/example/One.java' generated metadata  with charset 'UTF-8'
+[DEBUG] 09:12:42.137 ----- Classpath analyzed by Squid:
+[DEBUG] 09:12:42.137 /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/classes
+[DEBUG] 09:12:42.137 -----
+[DEBUG] 09:12:42.187 'src/main/java/example/One2.java' generated metadata  with charset 'UTF-8'
+[DEBUG] 09:12:42.221 ----- Classpath analyzed by Squid:
+[DEBUG] 09:12:42.221 /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/classes
+[DEBUG] 09:12:42.221 -----
+[DEBUG] 09:12:42.278 'src/main/java/example/One3.java' generated metadata  with charset 'UTF-8'
+[INFO] 09:12:42.322 Java Main Files AST scan (done) | time=689ms
+[INFO] 09:12:42.322 Java Test Files AST scan
+[INFO] 09:12:42.322 0 source files to be analyzed
+[INFO] 09:12:42.328 Java Test Files AST scan (done) | time=6ms
+[INFO] 09:12:42.328 Sensor JavaSquidSensor [java] (done) | time=1637ms
+[INFO] 09:12:42.328 Sensor NoSonar Sensor [php]
+[INFO] 09:12:42.328 Sensor NoSonar Sensor [php] (done) | time=0ms
+[INFO] 09:12:42.328 Sensor Coverage Report Import [csharp]
+[DEBUG] 09:12:42.328 No coverage property. Skip Sensor
+[INFO] 09:12:42.328 Sensor Coverage Report Import [csharp] (done) | time=0ms
+[INFO] 09:12:42.329 Sensor Coverage Report Import [csharp]
+[DEBUG] 09:12:42.329 No coverage property. Skip Sensor
+[INFO] 09:12:42.329 Sensor Coverage Report Import [csharp] (done) | time=0ms
+[INFO] 09:12:42.329 Sensor Unit Test Results Import [csharp]
+[DEBUG] 09:12:42.329 No unit test results property. Skip Sensor
+[INFO] 09:12:42.329 Sensor Unit Test Results Import [csharp] (done) | time=0ms
+[INFO] 09:12:42.329 Sensor SurefireSensor [java]
+[INFO] 09:12:42.329 parsing /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/surefire-reports
+[INFO] 09:12:42.330 Sensor SurefireSensor [java] (done) | time=1ms
+[INFO] 09:12:42.330 Sensor JaCoCoSensor [java]
+[INFO] 09:12:42.330 Sensor JaCoCoSensor [java] (done) | time=0ms
+[INFO] 09:12:42.330 Sensor XmlFileSensor [java]
+[INFO] 09:12:42.330 Sensor XmlFileSensor [java] (done) | time=0ms
+[INFO] 09:12:42.330 Sensor Analyzer for "php.ini" files [php]
+[INFO] 09:12:42.331 3/3 source files have been analyzed
+[INFO] 09:12:42.333 0/0 source files have been analyzed
+[INFO] 09:12:42.336 Sensor Analyzer for "php.ini" files [php] (done) | time=6ms
+[INFO] 09:12:42.336 Sensor Zero Coverage Sensor
+[INFO] 09:12:42.353 Sensor Zero Coverage Sensor (done) | time=17ms
+[INFO] 09:12:42.353 Sensor Code Colorizer Sensor
+[INFO] 09:12:42.354 Sensor Code Colorizer Sensor (done) | time=1ms
+[INFO] 09:12:42.354 Sensor CPD Block Indexer
+[INFO] 09:12:42.354 org.sonar.scanner.cpd.deprecated.JavaCpdBlockIndexer@77f7352a is used for java
+[DEBUG] 09:12:42.358 Populating index from [moduleKey=org.sonarqube:example-java-maven, relative=src/main/java/example/One.java, basedir=/opt/SS_examples/projects/languages/java/maven/java-maven-simple]
+[DEBUG] 09:12:42.370 Populating index from [moduleKey=org.sonarqube:example-java-maven, relative=src/main/java/example/One2.java, basedir=/opt/SS_examples/projects/languages/java/maven/java-maven-simple]
+[DEBUG] 09:12:42.371 Populating index from [moduleKey=org.sonarqube:example-java-maven, relative=src/main/java/example/One3.java, basedir=/opt/SS_examples/projects/languages/java/maven/java-maven-simple]
+[INFO] 09:12:42.371 Sensor CPD Block Indexer (done) | time=17ms
+[INFO] 09:12:42.380 Calculating CPD for 0 files
+[INFO] 09:12:42.381 CPD calculation finished
+[INFO] 09:12:42.525 Analysis report generated in 142ms, dir size=30 KB
+[INFO] 09:12:42.532 Analysis reports compressed in 6ms, zip size=11 KB
+[INFO] 09:12:42.532 Analysis report generated in /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/sonar/batch-report
+[DEBUG] 09:12:42.532 Upload report
+[DEBUG] 09:12:42.586 POST 200 http://sq:6300/api/ce/submit?projectKey=org.sonarqube:example-java-maven&projectName=Java%20::%20Simple%20Project%20::%20SonarQube%20Scanner%20for%20Maven | time=25ms
+[INFO] 09:12:42.588 Analysis report uploaded in 55ms
+[INFO] 09:12:42.588 ANALYSIS SUCCESSFUL, you can browse http://sq:6300/dashboard/index/org.sonarqube:example-java-maven
+[INFO] 09:12:42.588 Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] 09:12:42.588 More about the report processing at http://sq:6300/api/ce/task?id=AVsfWMNP9sisziCJrB0z
+[DEBUG] 09:12:42.588 Report metadata written to /opt/SS_examples/projects/languages/java/maven/java-maven-simple/target/sonar/report-task.txt
+[DEBUG] 09:12:42.590 Post-jobs : 
+[INFO] 09:12:42.591 Task total time: 5.051 s
+[DEBUG] 09:12:42.591 Execution getVersion
+[DEBUG] 09:12:42.591 Execution stop
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.760 s
+[INFO] Finished at: 2017-03-30T09:12:42-04:00
+[INFO] Final Memory: 15M/134M
+[INFO] ------------------------------------------------------------------------
