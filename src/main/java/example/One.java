@@ -7,9 +7,5 @@ public class One { //TODO
     return message; //TODO
   } 
 
-  public void uncoveredMethod() { //TODO
-    System.out.println(foo());
-	System.exit(1);
-  }
 	
 }
